@@ -1,0 +1,73 @@
+{
+  "colors": {
+    "--color-brand-accent-100": "#733cab",
+    "--color-brand-accent-65": "#733caba6",
+    "--color-brand-accent-35": "#733cab59",
+    "--color-brand-accent-hover": "#5e2c91",
+    "--color-brand-primary-100": "#002a6c",
+    "--color-brand-primary-65": "#002a6ca6",
+    "--color-brand-primary-35": "#002a6ca6",
+    "--color-tone-text-100": "#1c1f2a",
+    "--color-tone-text-65": "#1c1f2aa6",
+    "--color-tone-text-35": "#1c1f2a59",
+    "--color-tone-text-16": "#1c1f2a29",
+    "--color-tone-text-8": "#1c1f2a14",
+    "--color-tone-text-4": "#1c1f2a0a",
+    "--color-tone-text-dark": "#161821",
+    "--color-tone-bg-100": "#ffffff",
+    "--color-tone-bg-65": "#ffffffa6",
+    "--color-tone-bg-35": "#ffffff59",
+    "--color-tone-bg-16": "#ffffff29",
+    "--color-tone-bg-8": "#ffffff14",
+    "--color-tone-bg-4": "#ffffff0a",
+    "--color-tone-bg-dark": "#f7f7f7",
+    "--color-absolute-gray-100": "#1c1f2a",
+    "--color-absolute-gray-65": "#1c1f2aa6",
+    "--color-absolute-gray-35": "#1c1f2a59",
+    "--color-absolute-gray-16": "#1c1f2a29",
+    "--color-absolute-gray-8": "#1c1f2a14",
+    "--color-absolute-gray-4": "#1c1f2a0a",
+    "--color-absolute-gray-dark": "#161821",
+    "--color-absolute-white-100": "#ffffff",
+    "--color-absolute-white-65": "#ffffffa6",
+    "--color-absolute-white-35": "#ffffff59",
+    "--color-absolute-white-16": "#ffffff29",
+    "--color-absolute-white-8": "#ffffff14",
+    "--color-absolute-white-4": "#ffffff0a",
+    "--color-absolute-white-dark": "#f7f7f7",
+    "--color-secondary-link-100": "#1357ba",
+    "--color-secondary-link-35": "#1357ba59",
+    "--color-secondary-link-hover": "#0846a1",
+    "--color-secondary-info-bg": "#1357ba14",
+    "--color-secondary-success-100": "#27ae60",
+    "--color-secondary-success-bg": "#27ae601f",
+    "--color-secondary-warning-100": "#e79600",
+    "--color-secondary-warning-bg": "#e796001f",
+    "--color-secondary-alert-100": "#ff0000",
+    "--color-secondary-alert-bg": "#ff00001f"
+  },
+  "text": {
+    "--text-regular": {
+      "font-size": "14px",
+      "font-weight": "normal"
+    },
+    "--text-bold": {
+      "font-size": "18px",
+      "font-weight": "bold"
+    }
+  },
+  "spaces": {
+    "--spaces-1": "2px",
+    "--spaces-2": "4px",
+    "--spaces-3": "8px",
+    "--spaces-4": "12px",
+    "--spaces-5": "16px",
+    "--spaces-6": "20px",
+    "--spaces-7": "18px",
+    "--spaces-8": "20px",
+    "--spaces-9": "28px",
+    "--spaces-10": "32px",
+    "--spaces-11": "36px",
+    "--spaces-12": "40px"
+  }
+}

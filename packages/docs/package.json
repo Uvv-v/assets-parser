@@ -1,0 +1,20 @@
+{
+  "name": "docs",
+  "version": "0.0.1",
+  "license": "ISC",
+  "type": "module",
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview",
+    "build:demo": "tsc demo.cts; node demo.cjs; rimraf demo.cjs"
+  },
+  "dependencies": {
+    "color": "^4.2.3",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "@types/color": "^3.0.6",
+    "vue": "^3.4.3"
+  }
+}
