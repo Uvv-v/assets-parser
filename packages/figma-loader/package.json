@@ -1,0 +1,13 @@
+{
+  "name": "figma-loader",
+  "version": "0.0.1",
+  "license": "ISC",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "ts-node src/demo.ts"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "ts-node": "^10.9.2"
+  }
+}

@@ -1,3 +1,4 @@
+import { AssetsConfig } from 'core'
 import { Node } from './types/figma-ast.types'
 import { FigmaFile } from './types/figma-api.types'
 import { COLOR_CODE, writeAny } from 'logger'
@@ -22,7 +23,7 @@ const treeWalk = (node: Node, branch: boolean[] = [], last = false) => {
   }
 }
 
-export const extractTokens = (file: FigmaFile, themeRegex: RegExp) => {
+export const extractTokens = (file: FigmaFile, themeRegex: RegExp): AssetsConfig => {
   const { document } = file
 
   const pages = document.children
@@ -30,5 +31,8 @@ export const extractTokens = (file: FigmaFile, themeRegex: RegExp) => {
 
   pages.forEach((page) => treeWalk(page))
 
-  return '{}'
+  return {
+    themes: [
+    ],
+  }
 }

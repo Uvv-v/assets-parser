@@ -32,4 +32,13 @@ export class FigmaFetcher {
 
     return await response.json() as FigmaFile
   }
+
+  public async fetchLocalVariables() {
+    const url = this.baseUrl + this.version + '/files/' + this.fileKey + '/variables/local'
+    const init: RequestInit = { headers: { 'X-Figma-Token': this.accessToken } }
+
+    const response = await fetch(url, init)
+
+    return await response.json() as FigmaFile
+  }
 }

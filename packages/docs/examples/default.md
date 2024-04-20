@@ -22,7 +22,7 @@ import ColorRow from './ColorRow.vue'
   <tr>
     <th>Token</th>
     <th>Variable</th>
-    <th>Default</th>
+    <th>No media</th>
     <th>1060</th>
     <th>360</th>
   </tr>

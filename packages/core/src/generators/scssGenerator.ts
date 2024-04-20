@@ -19,9 +19,23 @@ export class ScssGenerator extends AssetsGenerator {
     fs.mkdirSync(this.path)
 
     const tokens = this.getUniqueVariables(config)
-    Object.entries(tokens).forEach(([name, value]) => {
+    const tokensEntries = Object.entries(tokens)
+
+    tokensEntries.forEach(([name, value]) => {
       this.generateScss(name, value)
     })
+
+    this.generateIndex(tokensEntries.map(([name]) => name))
+  }
+
+  generateIndex(tokenNames: string[]) {
+    let result: string = ''
+
+    tokenNames.forEach((name) => {
+      result += `@import '${name}.scss';\n`
+    })
+
+    fs.writeFileSync(path.join(this.path, 'index') + '.scss', result)
   }
 
   generateScss(name: string, input: GetUniqueVariablesResult[string]){

@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "Themes Assistant"
+  name: "StylesGenerator"
   text: "Create themes easier"
   image:
     src: /logo.png
